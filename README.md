@@ -31,6 +31,52 @@ Clean the data and perform exploratory data analysis (EDA) on VOU multifrequency
 - Redshift values are higher closer to 0.
 - Blazars with low nufnu and low frequency have lower redshift values.
 
+## Task 2: Regression Analysis
+
+**Objective:** Build and evaluate regression models to predict tips using the `Tips` Seaborn dataset.
+
+**Approach:**
+1. **Data Preprocessing:**
+   - Standardize numerical features.
+   - One-hot encode categorical features.
+
+2. **Model Building:**
+   - Linear Regression.
+   - Decision Tree Regression.
+   - Deep Neural Network Regression.
+   - Stacked Regression.
+
+3. **Evaluation:**
+   - Use Mean Squared Error (MSE) and Mean Absolute Error (MAE).
+   - Discuss impact of loss functions on skewed data.
+
+4. **Conclusion:**
+   - Compare model performance.
+   - Explain choice of models, evaluation metrics, and loss functions.
+
+## Code Summary
+
+### Data Preprocessing
+- Standardized numerical features and one-hot encoded categorical features using `StandardScaler` and `OneHotEncoder`.
+- Split the data into training and test sets.
+
+### Model Building
+- Built and trained four models: Linear Regression, Decision Tree Regression, Deep Neural Network Regression, and Stacked Regression.
+- Used Mean Squared Error (MSE) and Mean Absolute Error (MAE) as evaluation metrics.
+
+### Results
+- Linear Regression:
+  - MSE: 0.703, MAE: 0.667
+- Decision Tree Regression:
+  - MSE: 1.392, MAE: 0.878
+- Deep Neural Network Regression:
+  - MSE: 0.728, MAE: 0.689
+- Stacked Regression:
+  - MSE: 0.682, MAE: 0.672
+
+### Conclusion
+- The Stacked Regression model performed the best in terms of MSE and MAE, followed by the Deep Neural Network Regression model.
+- These models can be used to predict tips based on the provided dataset.
 
 
 ---
