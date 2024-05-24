@@ -37,8 +37,8 @@ Clean the data and perform exploratory data analysis (EDA) on VOU multifrequency
 
 **Approach:**
 1. **Data Preprocessing:**
-   - Standardize numerical features.
-   - One-hot encode categorical features.
+   - Standardized numerical features.
+   - One-hot encoded categorical features.
 
 2. **Model Building:**
    - Linear Regression.
@@ -47,12 +47,12 @@ Clean the data and perform exploratory data analysis (EDA) on VOU multifrequency
    - Stacked Regression.
 
 3. **Evaluation:**
-   - Use Mean Squared Error (MSE) and Mean Absolute Error (MAE).
-   - Discuss impact of loss functions on skewed data.
+   - Used Mean Squared Error (MSE) and Mean Absolute Error (MAE).
+   - Discussed the impact of loss functions on skewed data.
 
 4. **Conclusion:**
-   - Compare model performance.
-   - Explain choice of models, evaluation metrics, and loss functions.
+   - Compared model performance.
+   - Explained choice of models, evaluation metrics, and loss functions.
 
 ## Code Summary
 
@@ -76,7 +76,7 @@ Clean the data and perform exploratory data analysis (EDA) on VOU multifrequency
 
 ### Conclusion
 - The Stacked Regression model performed the best in terms of MSE and MAE, followed by the Deep Neural Network Regression model.
-- These models can be used to predict tips based on the provided dataset.
+- These models can predict tips based on the provided dataset.
 
 
 ---
